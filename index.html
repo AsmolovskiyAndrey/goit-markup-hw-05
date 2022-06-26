@@ -63,7 +63,16 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Заказать услугу
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-button" type="button" data-modal-close>
+                <img src="./images/svg-index/close.svg" alt="закрыть" />
+              </button>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Преимущества(benefits) -->
@@ -134,7 +143,9 @@
                 width="370"
                 height="294"
               />
-              <h3 class="working-title-overlay">Десктопные приложения</h3>
+              <div class="working-box">
+                <h3 class="working-title-overlay">Десктопные приложения</h3>
+              </div>
             </li>
             <li class="working-li">
               <img
@@ -143,7 +154,9 @@
                 width="370"
                 height="294"
               />
-              <h3 class="working-title-overlay">Мобильные приложения</h3>
+              <div class="working-box">
+                <h3 class="working-title-overlay">Мобильные приложения</h3>
+              </div>
             </li>
             <li class="working-li">
               <img
@@ -152,7 +165,9 @@
                 width="370"
                 height="294"
               />
-              <h3 class="working-title-overlay">Дизайнерские решения</h3>
+              <div class="working-box">
+                <h3 class="working-title-overlay">Дизайнерские решения</h3>
+              </div>
             </li>
           </ul>
         </div>
