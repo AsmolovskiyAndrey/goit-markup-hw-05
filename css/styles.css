@@ -303,10 +303,14 @@ h1,h2,h3,p,ul{
     align-items: center;
     justify-content: center;
 
+    fill: var(--logo-text-color);
     background: var(--text-bgc-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    color: var(--logo-text-color);
+}
+.modal-button-close{
+    width: 11px;
+    height: 11px;
 
 }
 
